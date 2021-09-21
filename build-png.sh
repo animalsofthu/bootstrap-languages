@@ -7,7 +7,7 @@ path_to_svg=../country-flag-icons/images/svg
 svgs=""
 for alpha2 in sa by bg cz dk de gr gb es ee fi fr ie in hr hu id is it \
                il jp kr lt lv mk my mt nl no pl pt ro ru sk si al rs se \
-               th tr ua vn cn br ; do
+               th tr ua vn cn br lk ; do
     # Convert an alpha-2 code to an alpha-3 code according to ISO 3166-1
     alpha3=$(grep "^$alpha2" map|cut -f2)
     svgs="$svgs $path_to_svg/$alpha3.svg"
@@ -22,7 +22,11 @@ montage $svgs -tile 1x -resize 14x11\! -geometry '14x11>+0+0' -gravity NorthWest
 montage $svgs -tile 1x -resize 22x16\! -geometry '22x16>+0+0' -gravity NorthWest medium.png
 montage $svgs -tile 1x -resize 30x22\! -geometry '30x22>+0+0' -gravity NorthWest large.png
 
-montage  small.png medium.png large.png -mode Concatenate -background transparent -tile 1x4 sprite.png
-pngcrush sprite.png languages.png
+pngcrush small.png small.png
+pngcrush medium.png medium.png
+pngcrush large.png large.png
 
-rm un.svg small.png medium.png large.png sprite.png
+# montage  small.png medium.png large.png -mode Concatenate -background transparent -tile 1x4 sprite.png
+# pngcrush sprite.png languages.png
+
+# rm un.svg small.png medium.png large.png sprite.png

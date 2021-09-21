@@ -15,9 +15,9 @@
  * ========================================================================== */
 
 /* Define properties for our icons (default to the unknown language flag) */
-.lang-xs { background-position: 0px  -484px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./languages.png'); }
-.lang-sm { background-position: 0px -1199px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./languages.png'); }
-.lang-lg { background-position: 0px -2183px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./languages.png'); }
+.lang-xs { background-position: 0px  -495px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./small.png'); }
+.lang-sm { background-position: 0px -720px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./medium.png'); }
+.lang-lg { background-position: 0px -990px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./large.png'); }
 
 /* Positions in our sprite for xs-sized images */
 .lang-xs[lang=ar] { background-position: 0px     0px; }
@@ -38,6 +38,7 @@
 .lang-xs[lang=hu] { background-position: 0px  -165px; }
 .lang-xs[lang=in] { background-position: 0px  -176px; }
 .lang-xs[lang=id] { background-position: 0px  -176px; }
+.lang-xs[lang=jv] { background-position: 0px  -176px; }
 .lang-xs[lang=is] { background-position: 0px  -187px; }
 .lang-xs[lang=it] { background-position: 0px  -198px; }
 .lang-xs[lang=iw] { background-position: 0px  -209px; }
@@ -66,102 +67,110 @@
 .lang-xs[lang=zh] { background-position: 0px  -462px; }
 .lang-xs[lang=br] { background-position: 0px  -473px; }
 .lang-xs[lang=pt-br] { background-position: 0px  -473px; }
+.lang-xs[lang=ta] { background-position: 0px  -484px; }
+.lang-xs[lang=ta-lk] { background-position: 0px  -484px; }
 
 /* Positions in our sprite for sm-sized images */
-.lang-sm[lang=ar] { background-position: 0px  -495px; }
-.lang-sm[lang=be] { background-position: 0px  -511px; }
-.lang-sm[lang=bg] { background-position: 0px  -527px; }
-.lang-sm[lang=cs] { background-position: 0px  -543px; }
-.lang-sm[lang=da] { background-position: 0px  -559px; }
-.lang-sm[lang=de] { background-position: 0px  -575px; }
-.lang-sm[lang=el] { background-position: 0px  -591px; }
-.lang-sm[lang=en] { background-position: 0px  -607px; }
-.lang-sm[lang=es] { background-position: 0px  -623px; }
-.lang-sm[lang=et] { background-position: 0px  -639px; }
-.lang-sm[lang=fi] { background-position: 0px  -655px; }
-.lang-sm[lang=fr] { background-position: 0px  -671px; }
-.lang-sm[lang=ga] { background-position: 0px  -687px; }
-.lang-sm[lang=hi] { background-position: 0px  -703px; }
-.lang-sm[lang=hr] { background-position: 0px  -719px; }
-.lang-sm[lang=hu] { background-position: 0px  -735px; }
-.lang-sm[lang=in] { background-position: 0px  -751px; }
-.lang-sm[lang=id] { background-position: 0px  -751px; }
-.lang-sm[lang=is] { background-position: 0px  -767px; }
-.lang-sm[lang=it] { background-position: 0px  -783px; }
-.lang-sm[lang=iw] { background-position: 0px  -799px; }
-.lang-sm[lang=ja] { background-position: 0px  -815px; }
-.lang-sm[lang=ko] { background-position: 0px  -831px; }
-.lang-sm[lang=lt] { background-position: 0px  -847px; }
-.lang-sm[lang=lv] { background-position: 0px  -863px; }
-.lang-sm[lang=mk] { background-position: 0px  -879px; }
-.lang-sm[lang=ms] { background-position: 0px  -895px; }
-.lang-sm[lang=mt] { background-position: 0px  -911px; }
-.lang-sm[lang=nl] { background-position: 0px  -927px; }
-.lang-sm[lang=no] { background-position: 0px  -943px; }
-.lang-sm[lang=pl] { background-position: 0px  -959px; }
-.lang-sm[lang=pt] { background-position: 0px  -975px; }
-.lang-sm[lang=ro] { background-position: 0px  -991px; }
-.lang-sm[lang=ru] { background-position: 0px -1007px; }
-.lang-sm[lang=sk] { background-position: 0px -1023px; }
-.lang-sm[lang=sl] { background-position: 0px -1039px; }
-.lang-sm[lang=sq] { background-position: 0px -1055px; }
-.lang-sm[lang=sr] { background-position: 0px -1071px; }
-.lang-sm[lang=sv] { background-position: 0px -1087px; }
-.lang-sm[lang=th] { background-position: 0px -1103px; }
-.lang-sm[lang=tr] { background-position: 0px -1119px; }
-.lang-sm[lang=uk] { background-position: 0px -1135px; }
-.lang-sm[lang=vi] { background-position: 0px -1151px; }
-.lang-sm[lang=zh] { background-position: 0px -1167px; }
-.lang-sm[lang=br] { background-position: 0px -1183px; }
-.lang-sm[lang=pt-br] { background-position: 0px -1183px; }
+.lang-sm[lang=ar] { background-position: 0px  0px; }
+.lang-sm[lang=be] { background-position: 0px  -16px; }
+.lang-sm[lang=bg] { background-position: 0px  -32px; }
+.lang-sm[lang=cs] { background-position: 0px  -48px; }
+.lang-sm[lang=da] { background-position: 0px  -88px; }
+.lang-sm[lang=de] { background-position: 0px  -64px; }
+.lang-sm[lang=el] { background-position: 0px  -80px; }
+.lang-sm[lang=en] { background-position: 0px  -96px; }
+.lang-sm[lang=es] { background-position: 0px  -112px; }
+.lang-sm[lang=et] { background-position: 0px  -128px; }
+.lang-sm[lang=fi] { background-position: 0px  -144px; }
+.lang-sm[lang=fr] { background-position: 0px  -160px; }
+.lang-sm[lang=ga] { background-position: 0px  -176px; }
+.lang-sm[lang=hi] { background-position: 0px  -192px; }
+.lang-sm[lang=hr] { background-position: 0px  -208px; }
+.lang-sm[lang=hu] { background-position: 0px  -224px; }
+.lang-sm[lang=in] { background-position: 0px  -240px; }
+.lang-sm[lang=id] { background-position: 0px  -240px; }
+.lang-sm[lang=jv] { background-position: 0px  -240px; }
+.lang-sm[lang=is] { background-position: 0px  -256px; }
+.lang-sm[lang=it] { background-position: 0px  -272px; }
+.lang-sm[lang=iw] { background-position: 0px  -288px; }
+.lang-sm[lang=ja] { background-position: 0px  -304px; }
+.lang-sm[lang=ko] { background-position: 0px  -320px; }
+.lang-sm[lang=lt] { background-position: 0px  -336px; }
+.lang-sm[lang=lv] { background-position: 0px  -352px; }
+.lang-sm[lang=mk] { background-position: 0px  -368px; }
+.lang-sm[lang=ms] { background-position: 0px  -384px; }
+.lang-sm[lang=mt] { background-position: 0px  -400px; }
+.lang-sm[lang=nl] { background-position: 0px  -416px; }
+.lang-sm[lang=no] { background-position: 0px  -432px; }
+.lang-sm[lang=pl] { background-position: 0px  -448px; }
+.lang-sm[lang=pt] { background-position: 0px  -464px; }
+.lang-sm[lang=ro] { background-position: 0px  -480px; }
+.lang-sm[lang=ru] { background-position: 0px  -496px; }
+.lang-sm[lang=sk] { background-position: 0px  -512px; }
+.lang-sm[lang=sl] { background-position: 0px  -528px; }
+.lang-sm[lang=sq] { background-position: 0px  -544px; }
+.lang-sm[lang=sr] { background-position: 0px  -560px; }
+.lang-sm[lang=sv] { background-position: 0px  -576px; }
+.lang-sm[lang=th] { background-position: 0px  -592px; }
+.lang-sm[lang=tr] { background-position: 0px  -608px; }
+.lang-sm[lang=uk] { background-position: 0px  -624px; }
+.lang-sm[lang=vi] { background-position: 0px  -640px; }
+.lang-sm[lang=zh] { background-position: 0px  -656px; }
+.lang-sm[lang=br] { background-position: 0px  -672px; }
+.lang-sm[lang=pt-br] { background-position: 0px -672px; }
+.lang-sm[lang=ta] { background-position: 0px  -688px; }
+.lang-sm[lang=ta-lk] { background-position: 0px  -688px; }
 
 /* Positions in our sprite for lg-sized images */
-.lang-lg[lang=ar] { background-position: 0px -1215px; }
-.lang-lg[lang=be] { background-position: 0px -1237px; }
-.lang-lg[lang=bg] { background-position: 0px -1259px; }
-.lang-lg[lang=cs] { background-position: 0px -1281px; }
-.lang-lg[lang=da] { background-position: 0px -1303px; }
-.lang-lg[lang=de] { background-position: 0px -1325px; }
-.lang-lg[lang=el] { background-position: 0px -1347px; }
-.lang-lg[lang=en] { background-position: 0px -1369px; }
-.lang-lg[lang=es] { background-position: 0px -1391px; }
-.lang-lg[lang=et] { background-position: 0px -1413px; }
-.lang-lg[lang=fi] { background-position: 0px -1435px; }
-.lang-lg[lang=fr] { background-position: 0px -1457px; }
-.lang-lg[lang=ga] { background-position: 0px -1479px; }
-.lang-lg[lang=hi] { background-position: 0px -1501px; }
-.lang-lg[lang=hr] { background-position: 0px -1523px; }
-.lang-lg[lang=hu] { background-position: 0px -1545px; }
-.lang-lg[lang=in] { background-position: 0px -1567px; }
-.lang-lg[lang=id] { background-position: 0px -1567px; }
-.lang-lg[lang=is] { background-position: 0px -1589px; }
-.lang-lg[lang=it] { background-position: 0px -1611px; }
-.lang-lg[lang=iw] { background-position: 0px -1633px; }
-.lang-lg[lang=ja] { background-position: 0px -1655px; }
-.lang-lg[lang=ko] { background-position: 0px -1677px; }
-.lang-lg[lang=lt] { background-position: 0px -1699px; }
-.lang-lg[lang=lv] { background-position: 0px -1721px; }
-.lang-lg[lang=mk] { background-position: 0px -1743px; }
-.lang-lg[lang=ms] { background-position: 0px -1765px; }
-.lang-lg[lang=mt] { background-position: 0px -1787px; }
-.lang-lg[lang=nl] { background-position: 0px -1809px; }
-.lang-lg[lang=no] { background-position: 0px -1831px; }
-.lang-lg[lang=pl] { background-position: 0px -1853px; }
-.lang-lg[lang=pt] { background-position: 0px -1875px; }
-.lang-lg[lang=ro] { background-position: 0px -1897px; }
-.lang-lg[lang=ru] { background-position: 0px -1919px; }
-.lang-lg[lang=sk] { background-position: 0px -1941px; }
-.lang-lg[lang=sl] { background-position: 0px -1963px; }
-.lang-lg[lang=sq] { background-position: 0px -1985px; }
-.lang-lg[lang=sr] { background-position: 0px -2007px; }
-.lang-lg[lang=sv] { background-position: 0px -2029px; }
-.lang-lg[lang=th] { background-position: 0px -2051px; }
-.lang-lg[lang=tr] { background-position: 0px -2073px; }
-.lang-lg[lang=uk] { background-position: 0px -2095px; }
-.lang-lg[lang=vi] { background-position: 0px -2117px; }
-.lang-lg[lang=zh] { background-position: 0px -2139px; }
-.lang-lg[lang=br] { background-position: 0px -2161px; }
-.lang-lg[lang=pt-br] { background-position: 0px -2161px; }
+.lang-lg[lang=ar] { background-position: 0px  0px; }
+.lang-lg[lang=be] { background-position: 0px  -22px; }
+.lang-lg[lang=bg] { background-position: 0px  -44px; }
+.lang-lg[lang=cs] { background-position: 0px  -66px; }
+.lang-lg[lang=da] { background-position: 0px  -88px; }
+.lang-lg[lang=de] { background-position: 0px  -110px; }
+.lang-lg[lang=el] { background-position: 0px  -132px; }
+.lang-lg[lang=en] { background-position: 0px  -154px; }
+.lang-lg[lang=es] { background-position: 0px  -176px; }
+.lang-lg[lang=et] { background-position: 0px  -198px; }
+.lang-lg[lang=fi] { background-position: 0px  -220px; }
+.lang-lg[lang=fr] { background-position: 0px  -242px; }
+.lang-lg[lang=ga] { background-position: 0px  -264px; }
+.lang-lg[lang=hi] { background-position: 0px  -286px; }
+.lang-lg[lang=hr] { background-position: 0px  -308px; }
+.lang-lg[lang=hu] { background-position: 0px  -330px; }
+.lang-lg[lang=in] { background-position: 0px  -352px; }
+.lang-lg[lang=id] { background-position: 0px  -352px; }
+.lang-lg[lang=jv] { background-position: 0px  -352px; }
+.lang-lg[lang=is] { background-position: 0px  -374px; }
+.lang-lg[lang=it] { background-position: 0px  -396px; }
+.lang-lg[lang=iw] { background-position: 0px  -418px; }
+.lang-lg[lang=ja] { background-position: 0px  -440px; }
+.lang-lg[lang=ko] { background-position: 0px  -462px; }
+.lang-lg[lang=lt] { background-position: 0px  -484px; }
+.lang-lg[lang=lv] { background-position: 0px  -506px; }
+.lang-lg[lang=mk] { background-position: 0px  -528px; }
+.lang-lg[lang=ms] { background-position: 0px  -550px; }
+.lang-lg[lang=mt] { background-position: 0px  -572px; }
+.lang-lg[lang=nl] { background-position: 0px  -594px; }
+.lang-lg[lang=no] { background-position: 0px  -616px; }
+.lang-lg[lang=pl] { background-position: 0px  -638px; }
+.lang-lg[lang=pt] { background-position: 0px  -660px; }
+.lang-lg[lang=ro] { background-position: 0px  -682px; }
+.lang-lg[lang=ru] { background-position: 0px  -704px; }
+.lang-lg[lang=sk] { background-position: 0px  -726px; }
+.lang-lg[lang=sl] { background-position: 0px  -748px; }
+.lang-lg[lang=sq] { background-position: 0px  -770px; }
+.lang-lg[lang=sr] { background-position: 0px  -792px; }
+.lang-lg[lang=sv] { background-position: 0px  -814px; }
+.lang-lg[lang=th] { background-position: 0px  -836px; }
+.lang-lg[lang=tr] { background-position: 0px  -858px; }
+.lang-lg[lang=uk] { background-position: 0px  -880px; }
+.lang-lg[lang=vi] { background-position: 0px  -902px; }
+.lang-lg[lang=zh] { background-position: 0px  -924px; }
+.lang-lg[lang=br] { background-position: 0px  -946px; }
+.lang-lg[lang=pt-br] { background-position: 0px -946px; }
+.lang-lg[lang=ta] { background-position: 0px  -968px; }
+.lang-lg[lang=ta-lk] { background-position: 0px  -968px; }
 
 /* Labels for the unknown language */
 .lang-lbl:after      { content: "Unknown language"; }
@@ -187,6 +196,7 @@
 .lang-lbl[lang=hu]:after { content: "Magyar"; }
 .lang-lbl[lang=in]:after { content: "Bahasa\000020indonesia"; }
 .lang-lbl[lang=id]:after { content: "Indonesia"; }
+.lang-lbl[lang=jv]:after { content: "Javanese"; }
 .lang-lbl[lang=is]:after { content: "\0000CDslenska"; }
 .lang-lbl[lang=it]:after { content: "Italiano"; }
 .lang-lbl[lang=iw]:after { content: "\0005E2\0005D1\0005E8\0005D9\0005EA"; }
@@ -215,6 +225,8 @@
 .lang-lbl[lang=zh]:after { content: "\004E2D\006587"; }
 .lang-lbl[lang=br]:after { content: "Brasil"; }
 .lang-lbl[lang=pt-br]:after { content: "Brasil"; }
+.lang-lbl[lang=ta]:after { content: "Tamil"; }
+.lang-lbl[lang=ta-lk]:after { content: "Tamil"; }
 
 /* Labels in english language */
 .lang-lbl-en[lang=ar]:after { content: "Arabic"; }
@@ -235,6 +247,7 @@
 .lang-lbl-en[lang=hu]:after { content: "Hungarian"; }
 .lang-lbl-en[lang=in]:after { content: "Indonesian"; }
 .lang-lbl-en[lang=id]:after { content: "Indonesian"; }
+.lang-lbl-en[lang=jv]:after { content: "Javanese"; }
 .lang-lbl-en[lang=is]:after { content: "Icelandic"; }
 .lang-lbl-en[lang=it]:after { content: "Italian"; }
 .lang-lbl-en[lang=iw]:after { content: "Hebrew"; }
@@ -263,6 +276,8 @@
 .lang-lbl-en[lang=zh]:after { content: "Chinese"; }
 .lang-lbl-en[lang=br]:after { content: "Brasil"; }
 .lang-lbl-en[lang=pt-br]:after { content: "Brasil"; }
+.lang-lbl-en[lang=ta]:after { content: "Tamil"; }
+.lang-lbl-en[lang=ta-lk]:after { content: "Tamil"; }
 
 /* Combined native/english labels */
 .lang-lbl-full[lang=ar]:after { content: "\000627\000644\000639\000631\000628\00064A\000629\0000A0/\0000A0Arabic"; }
@@ -284,6 +299,7 @@
 .lang-lbl-full[lang=hu]:after { content: "Magyar\0000A0/\0000A0Hungarian"; }
 .lang-lbl-full[lang=in]:after { content: "Bahasa\000020indonesia\0000A0/\0000A0Indonesian"; }
 .lang-lbl-full[lang=id]:after { content: "Bahasa\000020indonesia\0000A0/\0000A0Indonesian"; }
+.lang-lbl-full[lang=jv]:after { content: "Javanese\000020indonesia\0000A0/\0000A0Indonesian"; }
 .lang-lbl-full[lang=is]:after { content: "\0000CDslenska\0000A0/\0000A0Icelandic"; }
 .lang-lbl-full[lang=it]:after { content: "Italiano\0000A0/\0000A0Italian"; }
 .lang-lbl-full[lang=iw]:after { content: "\0005E2\0005D1\0005E8\0005D9\0005EA\0000A0/\0000A0Hebrew"; }
@@ -312,6 +328,8 @@
 .lang-lbl-full[lang=zh]:after { content: "\004E2D\006587\0000A0/\0000A0Chinese"; }
 .lang-lbl-full[lang=br]:after { content: "Portugu\0000EAs\0000A0/\0000A0Portuguese\0000A0/\0000A0Brasil"; }
 .lang-lbl-full[lang=pt-br]:after { content: "Portugu\0000EAs\0000A0/\0000A0Portuguese\0000A0/\0000A0Brasil"; }
+.lang-lbl-full[lang=ta]:after { content: "Tamil"; }
+.lang-lbl-full[lang=ta-lk]:after { content: "Tamil"; }
 
 /* One breaking space if we have an image */
 .lang-xs:before,
