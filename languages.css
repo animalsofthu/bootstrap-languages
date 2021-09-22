@@ -15,9 +15,9 @@
  * ========================================================================== */
 
 /* Define properties for our icons (default to the unknown language flag) */
-.lang-xs { background-position: 0px  -495px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./small.png'); }
-.lang-sm { background-position: 0px -720px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./medium.png'); }
-.lang-lg { background-position: 0px -990px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./large.png'); }
+.lang-xs { background-position: 0px  -506px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./small.png'); }
+.lang-sm { background-position: 0px -736px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./medium.png'); }
+.lang-lg { background-position: 0px -1012px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./large.png'); }
 
 /* Positions in our sprite for xs-sized images */
 .lang-xs[lang=ar] { background-position: 0px     0px; }
@@ -65,10 +65,12 @@
 .lang-xs[lang=uk] { background-position: 0px  -440px; }
 .lang-xs[lang=vi] { background-position: 0px  -451px; }
 .lang-xs[lang=zh] { background-position: 0px  -462px; }
+.lang-xs[lang=zh-hant] { background-position: 0px  -462px; }
 .lang-xs[lang=br] { background-position: 0px  -473px; }
 .lang-xs[lang=pt-br] { background-position: 0px  -473px; }
 .lang-xs[lang=ta] { background-position: 0px  -484px; }
 .lang-xs[lang=ta-lk] { background-position: 0px  -484px; }
+.lang-xs[lang=bn] { background-position: 0px  -495px; }
 
 /* Positions in our sprite for sm-sized images */
 .lang-sm[lang=ar] { background-position: 0px  0px; }
@@ -116,10 +118,12 @@
 .lang-sm[lang=uk] { background-position: 0px  -624px; }
 .lang-sm[lang=vi] { background-position: 0px  -640px; }
 .lang-sm[lang=zh] { background-position: 0px  -656px; }
+.lang-sm[lang=zh-hant] { background-position: 0px  -656px; }
 .lang-sm[lang=br] { background-position: 0px  -672px; }
 .lang-sm[lang=pt-br] { background-position: 0px -672px; }
 .lang-sm[lang=ta] { background-position: 0px  -688px; }
 .lang-sm[lang=ta-lk] { background-position: 0px  -688px; }
+.lang-sm[lang=bn] { background-position: 0px  -704px; }
 
 /* Positions in our sprite for lg-sized images */
 .lang-lg[lang=ar] { background-position: 0px  0px; }
@@ -167,10 +171,12 @@
 .lang-lg[lang=uk] { background-position: 0px  -880px; }
 .lang-lg[lang=vi] { background-position: 0px  -902px; }
 .lang-lg[lang=zh] { background-position: 0px  -924px; }
+.lang-lg[lang=zh-hant] { background-position: 0px  -924px; }
 .lang-lg[lang=br] { background-position: 0px  -946px; }
 .lang-lg[lang=pt-br] { background-position: 0px -946px; }
 .lang-lg[lang=ta] { background-position: 0px  -968px; }
 .lang-lg[lang=ta-lk] { background-position: 0px  -968px; }
+.lang-lg[lang=bn] { background-position: 0px  -990px; }
 
 /* Labels for the unknown language */
 .lang-lbl:after      { content: "Unknown language"; }
@@ -223,10 +229,12 @@
 .lang-lbl[lang=uk]:after { content: "\000423\00043A\000440\000430\000457\00043D\000441\00044C\00043A\000430"; }
 .lang-lbl[lang=vi]:after { content: "Ti\001EBFng\000020vi\001EC7t"; }
 .lang-lbl[lang=zh]:after { content: "\004E2D\006587"; }
+.lang-lbl[lang=zh-hant]:after { content: "\004E2D\006587"; }
 .lang-lbl[lang=br]:after { content: "Brasil"; }
 .lang-lbl[lang=pt-br]:after { content: "Brasil"; }
 .lang-lbl[lang=ta]:after { content: "Tamil"; }
 .lang-lbl[lang=ta-lk]:after { content: "Tamil"; }
+.lang-lbl[lang=bn]:after { content: "Bengali"; }
 
 /* Labels in english language */
 .lang-lbl-en[lang=ar]:after { content: "Arabic"; }
@@ -274,10 +282,12 @@
 .lang-lbl-en[lang=uk]:after { content: "Ukrainian"; }
 .lang-lbl-en[lang=vi]:after { content: "Vietnamese"; }
 .lang-lbl-en[lang=zh]:after { content: "Chinese"; }
+.lang-lbl-en[lang=zh-hant]:after { content: "Chinese"; }
 .lang-lbl-en[lang=br]:after { content: "Brasil"; }
 .lang-lbl-en[lang=pt-br]:after { content: "Brasil"; }
 .lang-lbl-en[lang=ta]:after { content: "Tamil"; }
 .lang-lbl-en[lang=ta-lk]:after { content: "Tamil"; }
+.lang-lbl-en[lang=bn]:after { content: "Bengali"; }
 
 /* Combined native/english labels */
 .lang-lbl-full[lang=ar]:after { content: "\000627\000644\000639\000631\000628\00064A\000629\0000A0/\0000A0Arabic"; }
@@ -326,10 +336,12 @@
 .lang-lbl-full[lang=uk]:after { content: "\000423\00043A\000440\000430\000457\00043D\000441\00044C\00043A\000430\0000A0/\0000A0Ukrainian"; }
 .lang-lbl-full[lang=vi]:after { content: "Ti\001EBFng\000020vi\001EC7t\0000A0/\0000A0Vietnamese"; }
 .lang-lbl-full[lang=zh]:after { content: "\004E2D\006587\0000A0/\0000A0Chinese"; }
+.lang-lbl-full[lang=zh-hant]:after { content: "\004E2D\006587\0000A0/\0000A0Chinese"; }
 .lang-lbl-full[lang=br]:after { content: "Portugu\0000EAs\0000A0/\0000A0Portuguese\0000A0/\0000A0Brasil"; }
 .lang-lbl-full[lang=pt-br]:after { content: "Portugu\0000EAs\0000A0/\0000A0Portuguese\0000A0/\0000A0Brasil"; }
 .lang-lbl-full[lang=ta]:after { content: "Tamil"; }
 .lang-lbl-full[lang=ta-lk]:after { content: "Tamil"; }
+.lang-lbl-full[lang=bn]:after { content: "Bengali"; }
 
 /* One breaking space if we have an image */
 .lang-xs:before,
