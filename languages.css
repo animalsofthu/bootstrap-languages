@@ -34,6 +34,7 @@
 .lang-xs[lang=fr] { background-position: 0px  -121px; }
 .lang-xs[lang=ga] { background-position: 0px  -132px; }
 .lang-xs[lang=hi] { background-position: 0px  -143px; }
+.lang-xs[lang=gu] { background-position: 0px  -143px; }
 .lang-xs[lang=hr] { background-position: 0px  -154px; }
 .lang-xs[lang=hu] { background-position: 0px  -165px; }
 .lang-xs[lang=in] { background-position: 0px  -176px; }
@@ -87,6 +88,7 @@
 .lang-sm[lang=fr] { background-position: 0px  -160px; }
 .lang-sm[lang=ga] { background-position: 0px  -176px; }
 .lang-sm[lang=hi] { background-position: 0px  -192px; }
+.lang-sm[lang=gu] { background-position: 0px  -192px; }
 .lang-sm[lang=hr] { background-position: 0px  -208px; }
 .lang-sm[lang=hu] { background-position: 0px  -224px; }
 .lang-sm[lang=in] { background-position: 0px  -240px; }
@@ -140,6 +142,7 @@
 .lang-lg[lang=fr] { background-position: 0px  -242px; }
 .lang-lg[lang=ga] { background-position: 0px  -264px; }
 .lang-lg[lang=hi] { background-position: 0px  -286px; }
+.lang-lg[lang=gu] { background-position: 0px  -286px; }
 .lang-lg[lang=hr] { background-position: 0px  -308px; }
 .lang-lg[lang=hu] { background-position: 0px  -330px; }
 .lang-lg[lang=in] { background-position: 0px  -352px; }
@@ -198,6 +201,7 @@
 .lang-lbl[lang=fr]:after { content: "Fran\0000E7ais"; }
 .lang-lbl[lang=ga]:after { content: "Gaeilge"; }
 .lang-lbl[lang=hi]:after { content: "\000939\00093F\000902\000926\000940"; }
+.lang-lbl[lang=gu]:after { content: "Gujarati"; }
 .lang-lbl[lang=hr]:after { content: "Hrvatski"; }
 .lang-lbl[lang=hu]:after { content: "Magyar"; }
 .lang-lbl[lang=in]:after { content: "Bahasa\000020indonesia"; }
@@ -251,6 +255,7 @@
 .lang-lbl-en[lang=fr]:after { content: "French"; }
 .lang-lbl-en[lang=ga]:after { content: "Irish"; }
 .lang-lbl-en[lang=hi]:after { content: "Hindi"; }
+.lang-lbl-en[lang=gu]:after { content: "Gujarati"; }
 .lang-lbl-en[lang=hr]:after { content: "Croatian"; }
 .lang-lbl-en[lang=hu]:after { content: "Hungarian"; }
 .lang-lbl-en[lang=in]:after { content: "Indonesian"; }
@@ -305,6 +310,7 @@
 .lang-lbl-full[lang=fr]:after { content: "Fran\0000E7ais\0000A0/\0000A0French"; }
 .lang-lbl-full[lang=ga]:after { content: "Gaeilge\0000A0/\0000A0Irish"; }
 .lang-lbl-full[lang=hi]:after { content: "\000939\00093F\000902\000926\000940\0000A0/\0000A0Hindi"; }
+.lang-lbl-full[lang=gu]:after { content: "Gujarati"; }
 .lang-lbl-full[lang=hr]:after { content: "Hrvatski\0000A0/\0000A0Croatian"; }
 .lang-lbl-full[lang=hu]:after { content: "Magyar\0000A0/\0000A0Hungarian"; }
 .lang-lbl-full[lang=in]:after { content: "Bahasa\000020indonesia\0000A0/\0000A0Indonesian"; }
