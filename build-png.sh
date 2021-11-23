@@ -13,6 +13,15 @@ for alpha2 in sa by bg cz dk de gr gb es ee fi fr ie in hr hu id is it \
     svgs="$svgs $path_to_svg/$alpha3.svg"
 done
 
+wget -qOmr.svg https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_the_Maratha_Empire.svg
+svgs="$svgs mr.svg"
+
+for alpha2 in pk ; do
+    # Convert an alpha-2 code to an alpha-3 code according to ISO 3166-1
+    alpha3=$(grep "^$alpha2" map|cut -f2)
+    svgs="$svgs $path_to_svg/$alpha3.svg"
+done
+
 # United nation flag is not supported by the country-flag-icons project,
 # so download a copy directly from wikipedia
 wget -qOun.svg https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg

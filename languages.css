@@ -15,9 +15,9 @@
  * ========================================================================== */
 
 /* Define properties for our icons (default to the unknown language flag) */
-.lang-xs { background-position: 0px  -506px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./small.png'); }
-.lang-sm { background-position: 0px -736px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./medium.png'); }
-.lang-lg { background-position: 0px -1012px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./large.png'); }
+.lang-xs { background-position: 0px  -528px; min-width: 14px; height: 11px; min-height: 11px; max-height: 11px; background-repeat: no-repeat; display: inline-block; background-image: url('./small.png'); }
+.lang-sm { background-position: 0px -768px; min-width: 22px; height: 16px; min-height: 16px; max-height: 16px; background-repeat: no-repeat; display: inline-block; background-image: url('./medium.png'); }
+.lang-lg { background-position: 0px -1056px; min-width: 30px; height: 22px; min-height: 22px; max-height: 22px; background-repeat: no-repeat; display: inline-block; background-image: url('./large.png'); }
 
 /* Positions in our sprite for xs-sized images */
 .lang-xs[lang=ar] { background-position: 0px     0px; }
@@ -35,11 +35,13 @@
 .lang-xs[lang=ga] { background-position: 0px  -132px; }
 .lang-xs[lang=hi] { background-position: 0px  -143px; }
 .lang-xs[lang=gu] { background-position: 0px  -143px; }
+.lang-xs[lang=ur] { background-position: 0px  -143px; }
 .lang-xs[lang=hr] { background-position: 0px  -154px; }
 .lang-xs[lang=hu] { background-position: 0px  -165px; }
 .lang-xs[lang=in] { background-position: 0px  -176px; }
 .lang-xs[lang=id] { background-position: 0px  -176px; }
 .lang-xs[lang=jv] { background-position: 0px  -176px; }
+.lang-xs[lang=te] { background-position: 0px  -176px; }
 .lang-xs[lang=is] { background-position: 0px  -187px; }
 .lang-xs[lang=it] { background-position: 0px  -198px; }
 .lang-xs[lang=iw] { background-position: 0px  -209px; }
@@ -72,6 +74,8 @@
 .lang-xs[lang=ta] { background-position: 0px  -484px; }
 .lang-xs[lang=ta-lk] { background-position: 0px  -484px; }
 .lang-xs[lang=bn] { background-position: 0px  -495px; }
+.lang-xs[lang=mr] { background-position: 0px  -506px; }
+.lang-xs[lang=pa] { background-position: 0px  -517px; }
 
 /* Positions in our sprite for sm-sized images */
 .lang-sm[lang=ar] { background-position: 0px  0px; }
@@ -89,11 +93,13 @@
 .lang-sm[lang=ga] { background-position: 0px  -176px; }
 .lang-sm[lang=hi] { background-position: 0px  -192px; }
 .lang-sm[lang=gu] { background-position: 0px  -192px; }
+.lang-sm[lang=ur] { background-position: 0px  -192px; }
 .lang-sm[lang=hr] { background-position: 0px  -208px; }
 .lang-sm[lang=hu] { background-position: 0px  -224px; }
 .lang-sm[lang=in] { background-position: 0px  -240px; }
 .lang-sm[lang=id] { background-position: 0px  -240px; }
 .lang-sm[lang=jv] { background-position: 0px  -240px; }
+.lang-sm[lang=te] { background-position: 0px  -240px; }
 .lang-sm[lang=is] { background-position: 0px  -256px; }
 .lang-sm[lang=it] { background-position: 0px  -272px; }
 .lang-sm[lang=iw] { background-position: 0px  -288px; }
@@ -126,6 +132,8 @@
 .lang-sm[lang=ta] { background-position: 0px  -688px; }
 .lang-sm[lang=ta-lk] { background-position: 0px  -688px; }
 .lang-sm[lang=bn] { background-position: 0px  -704px; }
+.lang-sm[lang=mr] { background-position: 0px  -720px; }
+.lang-sm[lang=pa] { background-position: 0px  -736px; }
 
 /* Positions in our sprite for lg-sized images */
 .lang-lg[lang=ar] { background-position: 0px  0px; }
@@ -143,11 +151,13 @@
 .lang-lg[lang=ga] { background-position: 0px  -264px; }
 .lang-lg[lang=hi] { background-position: 0px  -286px; }
 .lang-lg[lang=gu] { background-position: 0px  -286px; }
+.lang-lg[lang=ur] { background-position: 0px  -286px; }
 .lang-lg[lang=hr] { background-position: 0px  -308px; }
 .lang-lg[lang=hu] { background-position: 0px  -330px; }
 .lang-lg[lang=in] { background-position: 0px  -352px; }
 .lang-lg[lang=id] { background-position: 0px  -352px; }
 .lang-lg[lang=jv] { background-position: 0px  -352px; }
+.lang-lg[lang=te] { background-position: 0px  -352px; }
 .lang-lg[lang=is] { background-position: 0px  -374px; }
 .lang-lg[lang=it] { background-position: 0px  -396px; }
 .lang-lg[lang=iw] { background-position: 0px  -418px; }
@@ -180,6 +190,8 @@
 .lang-lg[lang=ta] { background-position: 0px  -968px; }
 .lang-lg[lang=ta-lk] { background-position: 0px  -968px; }
 .lang-lg[lang=bn] { background-position: 0px  -990px; }
+.lang-lg[lang=mr] { background-position: 0px -1012px; }
+.lang-lg[lang=pa] { background-position: 0px -1034px; }
 
 /* Labels for the unknown language */
 .lang-lbl:after      { content: "Unknown language"; }
@@ -202,6 +214,7 @@
 .lang-lbl[lang=ga]:after { content: "Gaeilge"; }
 .lang-lbl[lang=hi]:after { content: "\000939\00093F\000902\000926\000940"; }
 .lang-lbl[lang=gu]:after { content: "Gujarati"; }
+.lang-lbl[lang=ur]:after { content: "Urdu"; }
 .lang-lbl[lang=hr]:after { content: "Hrvatski"; }
 .lang-lbl[lang=hu]:after { content: "Magyar"; }
 .lang-lbl[lang=in]:after { content: "Bahasa\000020indonesia"; }
@@ -239,6 +252,9 @@
 .lang-lbl[lang=ta]:after { content: "Tamil"; }
 .lang-lbl[lang=ta-lk]:after { content: "Tamil"; }
 .lang-lbl[lang=bn]:after { content: "Bengali"; }
+.lang-lbl[lang=mr]:after { content: "Maratha"; }
+.lang-lbl[lang=pa]:after { content: "Punjabi"; }
+.lang-lbl[lang=te]:after { content: "Telugu"; }
 
 /* Labels in english language */
 .lang-lbl-en[lang=ar]:after { content: "Arabic"; }
@@ -256,6 +272,7 @@
 .lang-lbl-en[lang=ga]:after { content: "Irish"; }
 .lang-lbl-en[lang=hi]:after { content: "Hindi"; }
 .lang-lbl-en[lang=gu]:after { content: "Gujarati"; }
+.lang-lbl-en[lang=ur]:after { content: "Urdu"; }
 .lang-lbl-en[lang=hr]:after { content: "Croatian"; }
 .lang-lbl-en[lang=hu]:after { content: "Hungarian"; }
 .lang-lbl-en[lang=in]:after { content: "Indonesian"; }
@@ -293,6 +310,9 @@
 .lang-lbl-en[lang=ta]:after { content: "Tamil"; }
 .lang-lbl-en[lang=ta-lk]:after { content: "Tamil"; }
 .lang-lbl-en[lang=bn]:after { content: "Bengali"; }
+.lang-lbl-en[lang=mr]:after { content: "Maratha"; }
+.lang-lbl-en[lang=pa]:after { content: "Punjabi"; }
+.lang-lbl-en[lang=te]:after { content: "Telugu"; }
 
 /* Combined native/english labels */
 .lang-lbl-full[lang=ar]:after { content: "\000627\000644\000639\000631\000628\00064A\000629\0000A0/\0000A0Arabic"; }
@@ -311,6 +331,7 @@
 .lang-lbl-full[lang=ga]:after { content: "Gaeilge\0000A0/\0000A0Irish"; }
 .lang-lbl-full[lang=hi]:after { content: "\000939\00093F\000902\000926\000940\0000A0/\0000A0Hindi"; }
 .lang-lbl-full[lang=gu]:after { content: "Gujarati"; }
+.lang-lbl-full[lang=ur]:after { content: "Urdu"; }
 .lang-lbl-full[lang=hr]:after { content: "Hrvatski\0000A0/\0000A0Croatian"; }
 .lang-lbl-full[lang=hu]:after { content: "Magyar\0000A0/\0000A0Hungarian"; }
 .lang-lbl-full[lang=in]:after { content: "Bahasa\000020indonesia\0000A0/\0000A0Indonesian"; }
@@ -348,6 +369,9 @@
 .lang-lbl-full[lang=ta]:after { content: "Tamil"; }
 .lang-lbl-full[lang=ta-lk]:after { content: "Tamil"; }
 .lang-lbl-full[lang=bn]:after { content: "Bengali"; }
+.lang-lbl-full[lang=mr]:after { content: "Maratha"; }
+.lang-lbl-full[lang=pa]:after { content: "Punjabi"; }
+.lang-lbl-full[lang=te]:after { content: "Telugu"; }
 
 /* One breaking space if we have an image */
 .lang-xs:before,
