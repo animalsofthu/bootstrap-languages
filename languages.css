@@ -213,13 +213,11 @@
 .lang-lbl[lang=fr]:after { content: "Fran\0000E7ais"; }
 .lang-lbl[lang=ga]:after { content: "Gaeilge"; }
 .lang-lbl[lang=hi]:after { content: "\000939\00093F\000902\000926\000940"; }
-.lang-lbl[lang=gu]:after { content: "Gujarati"; }
-.lang-lbl[lang=ur]:after { content: "Urdu"; }
 .lang-lbl[lang=hr]:after { content: "Hrvatski"; }
 .lang-lbl[lang=hu]:after { content: "Magyar"; }
 .lang-lbl[lang=in]:after { content: "Bahasa\000020indonesia"; }
-.lang-lbl[lang=id]:after { content: "Indonesia"; }
-.lang-lbl[lang=jv]:after { content: "Javanese"; }
+.lang-lbl[lang=id]:after { content: "Bahasa\000020indonesia"; }
+.lang-lbl[lang=jv]:after { content: "Basa\000020jawa"; }
 .lang-lbl[lang=is]:after { content: "\0000CDslenska"; }
 .lang-lbl[lang=it]:after { content: "Italiano"; }
 .lang-lbl[lang=iw]:after { content: "\0005E2\0005D1\0005E8\0005D9\0005EA"; }
@@ -247,14 +245,16 @@
 .lang-lbl[lang=vi]:after { content: "Ti\001EBFng\000020vi\001EC7t"; }
 .lang-lbl[lang=zh]:after { content: "\004E2D\006587"; }
 .lang-lbl[lang=zh-hant]:after { content: "\004E2D\006587"; }
-.lang-lbl[lang=br]:after { content: "Brasil"; }
-.lang-lbl[lang=pt-br]:after { content: "Brasil"; }
 .lang-lbl[lang=ta]:after { content: "Tamil"; }
 .lang-lbl[lang=ta-lk]:after { content: "Tamil"; }
-.lang-lbl[lang=bn]:after { content: "Bengali"; }
-.lang-lbl[lang=mr]:after { content: "Maratha"; }
-.lang-lbl[lang=pa]:after { content: "Punjabi"; }
-.lang-lbl[lang=te]:after { content: "Telugu"; }
+.lang-lbl[lang=br]:after { content: "Português\000020brasileiro"; }
+.lang-lbl[lang=pt-br]:after { content: "Português\000020brasileiro"; }
+.lang-lbl[lang=bn]:after { content: "বাংলা"; }
+.lang-lbl[lang=mr]:after { content: "मराठी भाषा"; }
+.lang-lbl[lang=pa]:after { content: "ਪੰਜਾਬੀ ਭਾਸ਼ਾ"; }
+.lang-lbl[lang=te]:after { content: "తెలుగు భాష"; }
+.lang-lbl[lang=gu]:after { content: "ગુજરાત"; }
+.lang-lbl[lang=ur]:after { content: "اردو زبان"; }
 
 /* Labels in english language */
 .lang-lbl-en[lang=ar]:after { content: "Arabic"; }
