@@ -35,13 +35,13 @@
 .lang-xs[lang=ga] { background-position: 0px  -132px; }
 .lang-xs[lang=hi] { background-position: 0px  -143px; }
 .lang-xs[lang=gu] { background-position: 0px  -143px; }
-.lang-xs[lang=ur] { background-position: 0px  -143px; }
+.lang-xs[lang=te] { background-position: 0px  -143px; }
+.lang-xs[lang=pa] { background-position: 0px  -143px; }
 .lang-xs[lang=hr] { background-position: 0px  -154px; }
 .lang-xs[lang=hu] { background-position: 0px  -165px; }
 .lang-xs[lang=in] { background-position: 0px  -176px; }
 .lang-xs[lang=id] { background-position: 0px  -176px; }
 .lang-xs[lang=jv] { background-position: 0px  -176px; }
-.lang-xs[lang=te] { background-position: 0px  -176px; }
 .lang-xs[lang=is] { background-position: 0px  -187px; }
 .lang-xs[lang=it] { background-position: 0px  -198px; }
 .lang-xs[lang=iw] { background-position: 0px  -209px; }
@@ -75,7 +75,7 @@
 .lang-xs[lang=ta-lk] { background-position: 0px  -484px; }
 .lang-xs[lang=bn] { background-position: 0px  -495px; }
 .lang-xs[lang=mr] { background-position: 0px  -506px; }
-.lang-xs[lang=pa] { background-position: 0px  -517px; }
+.lang-xs[lang=ur] { background-position: 0px  -517px; }
 
 /* Positions in our sprite for sm-sized images */
 .lang-sm[lang=ar] { background-position: 0px  0px; }
@@ -93,13 +93,13 @@
 .lang-sm[lang=ga] { background-position: 0px  -192px; }
 .lang-sm[lang=hi] { background-position: 0px  -192px; }
 .lang-sm[lang=gu] { background-position: 0px  -192px; }
-.lang-sm[lang=ur] { background-position: 0px  -208px; }
+.lang-sm[lang=te] { background-position: 0px  -192px; }
+.lang-sm[lang=pa] { background-position: 0px  -192px; }
 .lang-sm[lang=hr] { background-position: 0px  -224px; }
 .lang-sm[lang=hu] { background-position: 0px  -240px; }
-.lang-sm[lang=in] { background-position: 0px  -240px; }
-.lang-sm[lang=id] { background-position: 0px  -240px; }
-.lang-sm[lang=jv] { background-position: 0px  -240px; }
-.lang-sm[lang=te] { background-position: 0px  -256px; }
+.lang-sm[lang=in] { background-position: 0px  -256px; }
+.lang-sm[lang=id] { background-position: 0px  -256px; }
+.lang-sm[lang=jv] { background-position: 0px  -256px; }
 .lang-sm[lang=is] { background-position: 0px  -272px; }
 .lang-sm[lang=it] { background-position: 0px  -288px; }
 .lang-sm[lang=iw] { background-position: 0px  -304px; }
@@ -127,13 +127,13 @@
 .lang-sm[lang=vi] { background-position: 0px  -656px; }
 .lang-sm[lang=zh] { background-position: 0px  -656px; }
 .lang-sm[lang=zh-hant] { background-position: 0px  -672px; }
-.lang-sm[lang=br] { background-position: 0px  -672px; }
+.lang-sm[lang=br] { background-position: 0px  -688px; }
 .lang-sm[lang=pt-br] { background-position: 0px -688px; }
-.lang-sm[lang=ta] { background-position: 0px  -688px; }
+.lang-sm[lang=ta] { background-position: 0px  -704px; }
 .lang-sm[lang=ta-lk] { background-position: 0px  -704px; }
 .lang-sm[lang=bn] { background-position: 0px  -720px; }
 .lang-sm[lang=mr] { background-position: 0px  -736px; }
-.lang-sm[lang=pa] { background-position: 0px  -752px; }
+.lang-sm[lang=ur] { background-position: 0px  -752px; }
 
 /* Positions in our sprite for lg-sized images */
 .lang-lg[lang=ar] { background-position: 0px  0px; }
@@ -151,13 +151,12 @@
 .lang-lg[lang=ga] { background-position: 0px  -264px; }
 .lang-lg[lang=hi] { background-position: 0px  -286px; }
 .lang-lg[lang=gu] { background-position: 0px  -286px; }
-.lang-lg[lang=ur] { background-position: 0px  -286px; }
+.lang-lg[lang=te] { background-position: 0px  -286px; }
 .lang-lg[lang=hr] { background-position: 0px  -308px; }
 .lang-lg[lang=hu] { background-position: 0px  -330px; }
 .lang-lg[lang=in] { background-position: 0px  -352px; }
 .lang-lg[lang=id] { background-position: 0px  -352px; }
 .lang-lg[lang=jv] { background-position: 0px  -352px; }
-.lang-lg[lang=te] { background-position: 0px  -352px; }
 .lang-lg[lang=is] { background-position: 0px  -374px; }
 .lang-lg[lang=it] { background-position: 0px  -396px; }
 .lang-lg[lang=iw] { background-position: 0px  -418px; }
@@ -192,6 +191,7 @@
 .lang-lg[lang=bn] { background-position: 0px  -990px; }
 .lang-lg[lang=mr] { background-position: 0px -1012px; }
 .lang-lg[lang=pa] { background-position: 0px -1034px; }
+.lang-lg[lang=ur] { background-position: 0px -1034px; }
 
 /* Labels for the unknown language */
 .lang-lbl:after      { content: "Unknown language"; }
